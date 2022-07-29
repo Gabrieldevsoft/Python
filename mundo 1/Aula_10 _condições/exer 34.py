@@ -4,4 +4,3 @@ if salario <= 1250:
 else:
     novo = salario + (salario * 10/100)
 print('o salario de \033[31m{:.2f}R$ \033[m passara a ser \033[32m{:.2f}R$\033[m agora'.format(salario,novo))
-print('vc ganhou na loteria')
